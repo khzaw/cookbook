@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Container from '../components/container';
 import styles from './about-us.module.css';
 
 
@@ -18,12 +17,12 @@ const User = props =>
   </div>
 
 export default () => (
-  <Container>
+  <div>
     <h1>About Us</h1>
     <User
       username="John Doe"
       avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
       excerpt="lorem ipsum"
     />
-  </Container>
+  </div>
 );
